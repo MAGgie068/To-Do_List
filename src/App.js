@@ -4,20 +4,20 @@ import _ from 'lodash';
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
 import { v4 } from 'uuid';
 
-const item1 = {
-  id: v4(),
-  name: ''
-}
+// const item1 = {
+//   id: v4(),
+//   name: ''
+// }
 
-const item2 = {
-  id: v4(),
-  name: ''
-}
+// const item2 = {
+//   id: v4(),
+//   name: ''
+// }
 
-const item3 = {
-  id: v4(),
-  name: ''
-}
+// const item3 = {
+//   id: v4(),
+//   name: ''
+// }
 
 
 function App() {
