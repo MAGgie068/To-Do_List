@@ -1,0 +1,80 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.App{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.App .column{
+  width: 30%;
+}
+
+.droppable-col{
+  width: 100%;
+  height: auto;
+  padding: 10px 10px 0px 10px;
+  background-color: teal;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  margin-bottom: 10px;
+  border: 2px solid tomato;
+  background-color: pink;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ip{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input{
+  background-color: plum;
+  border-radius: 10px;
+  border: 2px solid purple;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+button{
+  background-color: tomato;
+  border-radius: 10px;
+  border: 2px solid teal;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+button:hover{
+  background-color: teal;
+  border: 2px solid tomato;
+}
+
+h3{
+  font-size: 30px;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  padding: 0;
+  margin: 20px;
+  font-size: 50px;
+  font-family: cursive ;
+}
