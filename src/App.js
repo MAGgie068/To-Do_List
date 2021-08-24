@@ -89,7 +89,7 @@ function App() {
       <div className="ip">
         <button onClick={refreshPage}>Reset</button>
         <input type="text" value={text} placeholder="Tasks" onChange={(e) => setText(e.target.value)}/>
-        <button onClick={addItem}>Add</button>
+        <button onClick={addItem} disabled={!text}>Add</button>
       </div>
       <div className="App">
         
